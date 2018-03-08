@@ -7,17 +7,12 @@ import { HttpClient } from '@angular/common/http';
   styleUrls: ['./home.component.css']
 })
 export class HomeComponent implements OnInit {
-
-  title = 'app';
-  welcome = 'Welcome home';
-  result = '';
-
-  constructor(private http: HttpClient) { }
-
-  ngOnInit() {
-
+  posts = null;
+  constructor(private http: HttpClient) {
     this.http.get('https://comidita.herokuapp.com').subscribe(data => {
-      console.log(data);
+      this.posts = data
     });
   }
+
+  ngOnInit() {}
 }
