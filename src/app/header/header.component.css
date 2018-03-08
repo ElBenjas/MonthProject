@@ -1,0 +1,31 @@
+.jumbotron, footer{
+	background-color: #e6003947;
+	padding: 2rem 2rem;
+}
+
+h1{
+	color: #dcde73;
+  font-family: "Quicksand", sans-serif;
+  font-size: 4rem;
+}
+
+h5{
+	color: #dcde73;
+  font-family: "Quicksand", sans-serif;
+}
+
+.jumbotron p{
+	color: #feffbf;
+  font-family: "Cabin", sans-serif;
+}
+
+.jumbotron p.lead{
+  font-family: "Indie Flower", cursive;
+  text-align: right;
+}
+
+.carousel-item img{
+  height: 350px;
+  margin: 0 auto;
+  width: 550px;
+}
