@@ -18,7 +18,6 @@ export class HomeComponent implements OnInit {
 
     this.http.get('https://comidita.herokuapp.com').subscribe(data => {
       console.log(data);
-      this.result = (data);
     });
   }
 }
